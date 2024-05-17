@@ -4,6 +4,7 @@
 - [Hack-The-Inka-Frontend](https://github.com/Campus-Application/Hack-The-Inka-Frontend) `Duplicated and wrong Repo for this`
 - [Campnews-Frontend](https://github.com/Campus-Application/campnews-frontend) `Should be in BA-Module`
 - [Campnews-Backend](https://github.com/Campus-Application/campnews-backend) `Should be in BA-Module`
+- [Backend2024](https://github.com/Campus-Application/Backend2024) `Should be in BA-Module`
 
 ## Achievement Board
 - [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend)
