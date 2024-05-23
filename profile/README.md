@@ -39,7 +39,7 @@
 
 ## SchnuppiTool
 - [Application](https://github.com/Campus-Application/SchnuppiTool)
-- [Application](https://github.com/Campus-Application/schnuppitool25-frontend)
+- [Frontend](https://github.com/Campus-Application/schnuppitool25-frontend)
 
 ## WelcomeScreen
 - [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend)
