@@ -38,8 +38,8 @@
 - [Manage-Tool](https://github.com/Campus-Application/Pi-manage-tool)
 
 ## SchnuppiTool
-- [Application](https://github.com/Campus-Application/SchnuppiTool)
-- [Frontend](https://github.com/Campus-Application/schnuppitool25-frontend)
+- [Application](https://github.com/Campus-Application/SchnuppiTool) 
+- [Frontend](https://github.com/Campus-Application/schnuppitool25-frontend) `New 2025`
 
 ## WelcomeScreen
 - [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend)
