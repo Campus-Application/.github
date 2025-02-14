@@ -1,7 +1,7 @@
 # Campus Applikationen
 
 ## TODO
-- [Hack-The-Inka-Frontend](https://github.com/Campus-Application/Hack-The-Inka-Frontend) `Duplicated and should be in BA-Module`
+- [Hack-The-Inka-Frontend](https://github.com/Campus-Application/Hack-The-Inka-Frontend) `Duplicated? Also in BA-Module`
 - [Campnews-Frontend](https://github.com/Campus-Application/campnews-frontend) `Should be in BA-Module`
 - [Campnews-Frontend-new](https://github.com/Campus-Application/Campnews-frontend-new) `Should be in BA-Module`
 - [Campnews-Backend](https://github.com/Campus-Application/campnews-backend) `Should be in BA-Module`
