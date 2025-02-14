@@ -4,8 +4,6 @@
 - [Hack-The-Inka-Frontend](https://github.com/Campus-Application/Hack-The-Inka-Frontend) `Duplicated and should be in BA-Module`
 - [Campnews-Frontend](https://github.com/Campus-Application/campnews-frontend) `Should be in BA-Module`
 - [Campnews-Backend](https://github.com/Campus-Application/campnews-backend) `Should be in BA-Module`
-- [Backend2024](https://github.com/Campus-Application/Backend2024) `Should be in BA-Module`
-- [Backend2025](https://github.com/Campus-Application/campnews-backend-new) `Should be in BA-Module`
 
 ## Achievement Board
 - [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend)
