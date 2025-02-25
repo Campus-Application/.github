@@ -18,7 +18,7 @@
 - [Backend](https://github.com/Campus-Application/CampBoard-Backend)
 - [Runtime](https://github.com/Campus-Application/Campboard-Runtime)
   
-## CampDash
+## CampDash [Archived 🗄️]
 - [Frontend](https://github.com/Campus-Application/campdash-frontend)
 - [Backend](https://github.com/Campus-Application/campdash-backend)
 
