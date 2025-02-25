@@ -17,10 +17,6 @@
 - [Frontend](https://github.com/Campus-Application/CampBoard-Frontend)
 - [Backend](https://github.com/Campus-Application/CampBoard-Backend)
 - [Runtime](https://github.com/Campus-Application/Campboard-Runtime)
-  
-## CampDash [Archived 🗄️]
-- [Frontend](https://github.com/Campus-Application/campdash-frontend)
-- [Backend](https://github.com/Campus-Application/campdash-backend)
 
 ## CampusParty-App
 - [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend)
@@ -52,3 +48,9 @@
 
 ## SpacePost Office für Messen
 - [Applikation](https://github.com/Campus-Application/spacepost)
+
+# Archived Repositories 🗄️
+
+## CampDash
+- [Frontend](https://github.com/Campus-Application/campdash-frontend)
+- [Backend](https://github.com/Campus-Application/campdash-backend)
