@@ -17,14 +17,6 @@
 - [Frontend](https://github.com/Campus-Application/CampBoard-Frontend)
 - [Backend](https://github.com/Campus-Application/CampBoard-Backend)
 - [Runtime](https://github.com/Campus-Application/Campboard-Runtime)
-
-## CampusParty-App
-- [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend)
-- [Backend](https://github.com/Campus-Application/CampusParty-App-Backend)
-
-## CampusParty-Trailer
-- [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend)
-- [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions)
   
 ## Jump-In
 - [PHP-Version](https://github.com/Campus-Application/jump-in-php)
@@ -54,3 +46,11 @@
 ## CampDash
 - [Frontend](https://github.com/Campus-Application/campdash-frontend)
 - [Backend](https://github.com/Campus-Application/campdash-backend)
+
+## CampusParty-App
+- [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend)
+- [Backend](https://github.com/Campus-Application/CampusParty-App-Backend)
+
+## CampusParty-Trailer
+- [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend)
+- [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions)
