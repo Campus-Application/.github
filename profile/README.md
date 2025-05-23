@@ -64,6 +64,11 @@
 
 ---
 
+## Robot Karol (Schnuppertage)
+- [Applikation](https://github.com/Campus-Application/robot-karol)
+
+---
+
 ## 🗄️ Archived Projects
 
 ### CampDash
