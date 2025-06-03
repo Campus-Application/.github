@@ -29,6 +29,12 @@
 
 ---
 
+## HackTheInka
+- [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend)
+- [Backend](https://github.com/Campus-Application/HackTheInka-Backend)
+
+---
+
 ## Jump-In
 - [PHP Version](https://github.com/Campus-Application/jump-in-php)
 - [Frontend](https://github.com/Campus-Application/jump-in-frontend)
