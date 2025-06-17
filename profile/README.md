@@ -16,6 +16,12 @@
 
 ---
 
+## SchnuppiTool 2025
+- [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend)
+- [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend)
+
+---
+
 ## Achievement Board
 - [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend)
 - [Backend](https://github.com/Campus-Application/Achievement-Board-Backend)
