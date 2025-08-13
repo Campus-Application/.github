@@ -16,6 +16,20 @@
 
 ---
 
+## 🔧 Azure Time Plan
+
+| Tool | Operating Time |
+|--------|------------|
+| Achivement Board | Feb - Apr |
+| CampBoard | Aug - Nov |
+| HackTheInka | Okt |
+| Jump-in App | Jul - Aug |
+| Schnuppi-Tool | Jan - Dez |
+| SpacePostOffice - Messen | On demand |
+| Zukunftstag | Nov |
+
+---
+
 ## SchnuppiTool 2025
 - [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend)
 - [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend)
