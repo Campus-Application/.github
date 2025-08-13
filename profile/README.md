@@ -16,7 +16,7 @@
 
 ---
 
-## 🔧 Azure Time Plan
+## ⌚ Azure Time Plan
 
 | Tool | Operating Time |
 |--------|------------|
