@@ -21,7 +21,7 @@
 | Tool | Operating Time |
 |--------|------------|
 | Achivement Board | Feb - Apr |
-| CampBoard | Aug - Nov |
+| CampBoard | Aug - Jan |
 | HackTheInka | Okt |
 | Jump-in App | Jul - Aug |
 | Schnuppi-Tool | Jan - Dez |
