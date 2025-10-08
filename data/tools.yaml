@@ -1,0 +1,109 @@
+# Tools list that powers the consolidated table.
+# You can put "?" for Frontend/Backend if unknown.
+tools:
+  - name: "Achievement Board"
+    azure_operating_time: "Feb – Apr"
+    repos:
+      frontend: "https://github.com/Campus-Application/Achievement-Board-Frontend"
+      backend: "https://github.com/Campus-Application/Achievement-Board-Backend"
+
+  - name: "CampBoard"
+    azure_operating_time: "Aug – Jan"
+    repos:
+      frontend: "https://github.com/Campus-Application/CampBoard-Frontend"
+      backend: "https://github.com/Campus-Application/CampBoard-Backend"
+      other:
+        - label: "Runtime"
+          url: "https://github.com/Campus-Application/Campboard-Runtime"
+
+  - name: "HackTheInka"
+    azure_operating_time: "Okt"
+    repos:
+      # Frontend column shows "Application" label linking to this repo
+      frontend:
+        label: "Application"
+        url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
+      # No backend in the columns per your table; keep it empty
+      # Backend cell will be blank; we list 2025 repos under Other / Notes
+      other:
+        - label: "Frontend 2025"
+          url: "https://github.com/Campus-Application/HackTheInka-Frontend"
+        - label: "Backend 2025"
+          url: "https://github.com/Campus-Application/HackTheInka-Backend"
+
+  - name: "Jump-In App"
+    azure_operating_time: "Jul – Aug"
+    repos:
+      frontend: "https://github.com/Campus-Application/jump-in-frontend"
+      backend: "https://github.com/Campus-Application/jump-in-backend"
+      other:
+        - label: "PHP Version"
+          url: "https://github.com/Campus-Application/jump-in-php"
+        - label: "Configuration"
+          url: "https://github.com/Campus-Application/jump-in-konfig"
+
+  - name: "SchnuppiTool"
+    azure_operating_time: "Jan – Dez"
+    repos:
+      frontend: "?"
+      backend: "?"
+      other:
+        - label: "?"
+          url: ""
+
+  - name: "SpacePostOffice (Messe Tool)"
+    azure_operating_time: "On demand"
+    repos:
+      frontend:
+        label: "Application"
+        url: "https://github.com/Campus-Application/spacepost"
+
+  - name: "Zukunftstag"
+    azure_operating_time: "Nov"
+    repos:
+      frontend: "https://github.com/Campus-Application/Zukunftstag-Frontend"
+
+  - name: "Welcome Screen"
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/WelcomeScreen-Frontend"
+
+  - name: "Raspberry Pi Tools"
+    azure_operating_time: "—"
+    repos:
+      frontend:
+        label: "Management Tool"
+        url: "https://github.com/Campus-Application/Pi-manage-tool"
+      other:
+        - label: "Deployment"
+          url: "https://github.com/Campus-Application/Raspberry-Deployment"
+
+  - name: "Robot Karol (Schnuppertage)"
+    azure_operating_time: "—"
+    repos:
+      frontend:
+        label: "Applikation"
+        url: "https://github.com/Campus-Application/robot-karol"
+
+  - name: "CampDash (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/campdash-frontend"
+      backend: "https://github.com/Campus-Application/campdash-backend"
+
+  - name: "CampusParty App (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/CampusParty-App-Frontend"
+      backend: "https://github.com/Campus-Application/CampusParty-App-Backend"
+
+  - name: "CampusParty Trailer (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/CampusParty-Trailer-Frontend"
+      other:
+        - label: "Functions"
+          url: "https://github.com/Campus-Application/CampusParty-Trailer-Functions"
