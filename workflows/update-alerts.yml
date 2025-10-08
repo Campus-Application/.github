@@ -24,19 +24,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      - name: Build overview with Dependabot counts
+      - name: Build overview and update org profile README section
         env:
           GH_TOKEN: ${{ secrets.SECURITY_READ_TOKEN }}
         run: |
-          python scripts/build_overview.py
+          python .github/scripts/build_overview.py \
+            --config ".github/data/tools.yaml" \
+            --update-readme ".github/profile/README.md" \
+            --start-marker "<!-- CAMPUS-OVERVIEW:START -->" \
+            --end-marker "<!-- CAMPUS-OVERVIEW:END -->"
 
       - name: Commit changes (if any)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Campus_Applications_Consolidated.md
+          git add .github/profile/README.md
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh Dependabot alert counts in overview"
+            git commit -m "chore: refresh Dependabot alerts in org profile overview"
             git push
           else
             echo "No changes to commit."
