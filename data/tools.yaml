@@ -19,12 +19,9 @@ tools:
   - name: "HackTheInka"
     azure_operating_time: "Okt"
     repos:
-      # Frontend column shows "Application" label linking to this repo
       frontend:
         label: "Application"
         url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
-      # No backend in the columns per your table; keep it empty
-      # Backend cell will be blank; we list 2025 repos under Other / Notes
       other:
         - label: "Frontend 2025"
           url: "https://github.com/Campus-Application/HackTheInka-Frontend"
