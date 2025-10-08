@@ -23,7 +23,7 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
     """
     Returns (total_count, by_severity, meta) for open alerts.
     meta contains keys like {"archived": bool, "reason": "archived|not_found|ok|forbidden"}.
-    We silence warnings for archived repos by returning meta flags instead of raising.
+    We silence warnings for archived/no-access repos by returning meta flags instead of raising.
     """
     headers = {"Accept": "application/vnd.github+json"}
     token = get_token()
@@ -37,14 +37,13 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
 
     while url:
         r = session.get(url, headers=headers, timeout=30)
-        # Handle common statuses gracefully
+        # Graceful handling
         if r.status_code == 404:
             return (None, {}, {"reason": "not_found"})
         if r.status_code == 403:
             msg = (r.text or "").lower()
             if "archived" in msg:
                 return (None, {}, {"archived": True, "reason": "archived"})
-            # permissions missing or org policy
             return (None, {}, {"reason": "forbidden"})
         if r.status_code == 401:
             return (None, {}, {"reason": "unauthorized"})
@@ -52,7 +51,6 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
 
         data = r.json()
         if not isinstance(data, list):
-            # Unexpected format; avoid crashing
             return (None, {}, {"reason": "unexpected"})
 
         total += len(data)
@@ -95,14 +93,14 @@ def cell_link(entry, default_label: str) -> str:
     return md_link(lbl, url)
 
 def build_standard_table(cfg: dict) -> str:
-    """No alerts inlined; just the original consolidated table."""
+    """No alerts inlined; just the original consolidated table. Archived tools are hidden."""
     header = "| Tool | Azure Operating Time | Frontend | Backend | Other / Notes |\n"
     sep = "|------|----------------------|-----------|----------|----------------|\n"
     lines = [header, sep]
     for t in cfg["tools"]:
-        name = f"**{t['name']}**"
         if t.get("archived"):
-            name += " 🗄️"
+            continue  # hide archived tools
+        name = f"**{t['name']}**"
         op = t.get("azure_operating_time", "—")
         repos = t.get("repos", {})
         fe = cell_link(repos.get("frontend"), "Frontend")
@@ -118,62 +116,74 @@ def build_standard_table(cfg: dict) -> str:
     return "".join(lines)
 
 def build_alerts_table(cfg: dict) -> str:
-    """Separate alerts table: Tool, Repo Label, Link, Open, Critical, High, Moderate, Low, Note"""
+    """
+    Separate alerts table, listing only repos with > 0 open alerts.
+    Archived tools are hidden from this table as well.
+    Sorted by Open (desc), then by Tool.
+    Columns: Tool | Repo | Open | Critical | High | Moderate | Low
+    """
     session = requests.Session()
-    header = "| Tool | Repo | Open | Critical | High | Moderate | Low | Note |\n"
-    sep = "|------|------|-----:|--------:|-----:|---------:|----:|------|\n"
-    lines = [header, sep]
+    rows: List[dict] = []
 
-    def add_repo(tool_name: str, label: str, entry):
+    def consider_repo(tool_name: str, label: str, entry):
         if entry is None:
             return
         # skip placeholders
         if isinstance(entry, str):
             s = entry.strip()
-            if s == "?" or s == "":
+            if s in {"?", ""}:
                 return
             url = s
+            lbl = label
         else:
             url = (entry.get("url") or "").strip()
             if not url:
                 return
+            lbl = entry.get("label", label)
         try:
             owner, repo = parse_repo(url)
         except ValueError:
             return
+
         total, sev, meta = fetch_dependabot_counts(owner, repo, session)
-        note = ""
-        if meta.get("reason") == "archived":
-            note = "archived"
-        elif meta.get("reason") in {"forbidden", "unauthorized"}:
-            note = "no access"
-        elif meta.get("reason") == "not_found":
-            note = "not found"
-        elif meta.get("reason") == "unexpected":
-            note = "unexpected response"
+        # Only include repos with open > 0
+        if not isinstance(total, int) or total <= 0:
+            return
 
-        def fmt(x):
-            return "" if x is None else str(x)
-
-        critical = sev.get("critical") if isinstance(sev, dict) else None
-        high = sev.get("high") if isinstance(sev, dict) else None
-        moderate = sev.get("moderate") if isinstance(sev, dict) else None
-        low = sev.get("low") if isinstance(sev, dict) else None
-
-        label_text = entry.get("label", label) if isinstance(entry, dict) else label
-        lines.append(
-            f"| **{tool_name}** | {md_link(label_text, url)} | {fmt(total)} | {fmt(critical)} | {fmt(high)} | {fmt(moderate)} | {fmt(low)} | {note} |\n"
-        )
+        row = {
+            "tool": tool_name,
+            "label": lbl,
+            "url": url,
+            "open": total,
+            "critical": int(sev.get("critical", 0)) if isinstance(sev, dict) else "",
+            "high": int(sev.get("high", 0)) if isinstance(sev, dict) else "",
+            "moderate": int(sev.get("moderate", 0)) if isinstance(sev, dict) else "",
+            "low": int(sev.get("low", 0)) if isinstance(sev, dict) else "",
+        }
+        rows.append(row)
 
     for t in cfg["tools"]:
+        if t.get("archived"):
+            continue  # hide archived tools completely
         tool = t["name"]
         repos = t.get("repos", {})
-        add_repo(tool, "Frontend", repos.get("frontend"))
-        add_repo(tool, "Backend", repos.get("backend"))
+        consider_repo(tool, "Frontend", repos.get("frontend"))
+        consider_repo(tool, "Backend", repos.get("backend"))
         for item in repos.get("other", []):
-            # item can have custom label
-            add_repo(tool, item.get("label", "Repository") if isinstance(item, dict) else "Repository", item)
+            consider_repo(tool, item.get("label", "Repository") if isinstance(item, dict) else "Repository", item)
 
+    # Sort rows by open desc, then tool/name
+    rows.sort(key=lambda r: (-r["open"], r["tool"], r["label"]))
+
+    if not rows:
+        return "_No open Dependabot alerts across listed repositories._\n"
+
+    header = "| Tool | Repo | Open | Critical | High | Moderate | Low |\n"
+    sep = "|------|------|-----:|--------:|-----:|---------:|----:|\n"
+    lines = [header, sep]
+    for r in rows:
+        repo_link = md_link(r["label"], r["url"])
+        lines.append(f"| **{r['tool']}** | {repo_link} | {r['open']} | {r['critical']} | {r['high']} | {r['moderate']} | {r['low']} |\n")
     return "".join(lines)
 
 def replace_between_markers(text: str, start_marker: str, end_marker: str, replacement: str) -> str:
@@ -194,10 +204,10 @@ def main():
 
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
 
-    # Compose final content: consolidated table (no alerts) + alerts snapshot section
+    # Compose final content
     title = "# 🎓 Campus Applications — Consolidated Overview\n\n"
     standard = build_standard_table(cfg)
-    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Daily Snapshot\n\n"
+    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Daily Snapshot\n\n_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._\n\n"
     alerts_table = build_alerts_table(cfg)
     content = title + standard + alerts_title + alerts_table + "\n"
 
