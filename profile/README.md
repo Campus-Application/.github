@@ -14,39 +14,23 @@
 | **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) |  |  |
 | **Raspberry Pi Tools** | — | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  | [Deployment](https://github.com/Campus-Application/Raspberry-Deployment) |
 | **Robot Karol (Schnuppertage)** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
-| **CampDash (Archived)** 🗄️ | — | [Frontend](https://github.com/Campus-Application/campdash-frontend) | [Backend](https://github.com/Campus-Application/campdash-backend) |  |
-| **CampusParty App (Archived)** 🗄️ | — | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) | [Backend](https://github.com/Campus-Application/CampusParty-App-Backend) |  |
-| **CampusParty Trailer (Archived)** 🗄️ | — | [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend) |  | [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions) |
 
 
 ## ⚠️ Dependabot Alerts — Daily Snapshot
 
-| Tool | Repo | Open | Critical | High | Moderate | Low | Note |
-|------|------|-----:|--------:|-----:|---------:|----:|------|
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | 15 | 1 | 5 | 0 | 3 |  |
-| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | 3 | 0 | 0 | 0 | 1 |  |
-| **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | 0 | 0 | 0 | 0 | 0 |  |
-| **CampBoard** | [Backend](https://github.com/Campus-Application/CampBoard-Backend) | 0 | 0 | 0 | 0 | 0 |  |
-| **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) | 18 | 1 | 8 | 0 | 4 |  |
-| **HackTheInka** | [Application](https://github.com/Campus-Application/Hack-The-Inka-Frontend) | 111 | 17 | 50 | 0 | 14 |  |
-| **HackTheInka** | [Frontend 2025](https://github.com/Campus-Application/HackTheInka-Frontend) | 11 | 0 | 0 | 0 | 5 |  |
-| **HackTheInka** | [Backend 2025](https://github.com/Campus-Application/HackTheInka-Backend) | 0 | 0 | 0 | 0 | 0 |  |
-| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | 21 | 1 | 4 | 0 | 5 |  |
-| **Jump-In App** | [Backend](https://github.com/Campus-Application/jump-in-backend) | 0 | 0 | 0 | 0 | 0 |  |
-| **Jump-In App** | [PHP Version](https://github.com/Campus-Application/jump-in-php) | 0 | 0 | 0 | 0 | 0 |  |
-| **Jump-In App** | [Configuration](https://github.com/Campus-Application/jump-in-konfig) | 23 | 1 | 5 | 0 | 5 |  |
-| **SpacePostOffice (Messe Tool)** | [Application](https://github.com/Campus-Application/spacepost) | 0 | 0 | 0 | 0 | 0 |  |
-| **Zukunftstag** | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) | 0 | 0 | 0 | 0 | 0 |  |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 9 | 0 | 1 | 0 | 3 |  |
-| **Raspberry Pi Tools** | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  |  |  |  |  | archived |
-| **Raspberry Pi Tools** | [Deployment](https://github.com/Campus-Application/Raspberry-Deployment) | 0 | 0 | 0 | 0 | 0 |  |
-| **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 15 | 3 | 1 | 0 | 5 |  |
-| **CampDash (Archived)** | [Frontend](https://github.com/Campus-Application/campdash-frontend) |  |  |  |  |  | archived |
-| **CampDash (Archived)** | [Backend](https://github.com/Campus-Application/campdash-backend) |  |  |  |  |  | archived |
-| **CampusParty App (Archived)** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  |  |  |  |  | archived |
-| **CampusParty App (Archived)** | [Backend](https://github.com/Campus-Application/CampusParty-App-Backend) |  |  |  |  |  | archived |
-| **CampusParty Trailer (Archived)** | [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend) |  |  |  |  |  | archived |
-| **CampusParty Trailer (Archived)** | [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions) |  |  |  |  |  | archived |
+_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._
+
+| Tool | Repo | Open | Critical | High | Moderate | Low |
+|------|------|-----:|--------:|-----:|---------:|----:|
+| **HackTheInka** | [Application](https://github.com/Campus-Application/Hack-The-Inka-Frontend) | 111 | 17 | 50 | 0 | 14 |
+| **Jump-In App** | [Configuration](https://github.com/Campus-Application/jump-in-konfig) | 23 | 1 | 5 | 0 | 5 |
+| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | 21 | 1 | 4 | 0 | 5 |
+| **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) | 18 | 1 | 8 | 0 | 4 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | 15 | 1 | 5 | 0 | 3 |
+| **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 15 | 3 | 1 | 0 | 5 |
+| **HackTheInka** | [Frontend 2025](https://github.com/Campus-Application/HackTheInka-Frontend) | 11 | 0 | 0 | 0 | 5 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 9 | 0 | 1 | 0 | 3 |
+| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | 3 | 0 | 0 | 0 | 1 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
