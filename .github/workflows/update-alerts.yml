@@ -3,7 +3,7 @@ name: Update Dependabot Alerts Overview
 on:
   workflow_dispatch:
   schedule:
-    - cron: "22 5 * * *"  # Daily at 05:22 UTC (~07:22 Europe/Zurich)
+    - cron: "22 5 * * 1"   # weekly, Mondays 05:22 UTC
 
 permissions:
   contents: write
