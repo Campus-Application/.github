@@ -1,6 +1,21 @@
-# 🎓 Campus Applications
+# 🎓 Campus Applications — Consolidated Overview
 
----
+| Tool | Azure Operating Time | Frontend | Backend | Other / Notes |
+|------|----------------------|-----------|----------|----------------|
+| **Achievement Board** | Feb – Apr            | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) |  |
+| **CampBoard** | Aug – Jan            | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |
+| **HackTheInka** | Okt                  | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [Backend](https://github.com/Campus-Application/HackTheInka-Backend) |  |
+| **Jump-In App** | Jul – Aug            | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [PHP Version](https://github.com/Campus-Application/jump-in-php), [Configuration](https://github.com/Campus-Application/jump-in-konfig) |
+| **SchnuppiTool** | Jan – Dez            | ? | ? | ? |
+| **SpacePostOffice (Messe Tool)** | On demand            | [Application](https://github.com/Campus-Application/spacepost) |  |  |
+| **Zukunftstag** | Nov                  | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) |  |  |
+| **Welcome Screen** | —                    | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) |  |  |
+| **Raspberry Pi Tools** | —                    | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  | [Deployment](https://github.com/Campus-Application/Raspberry-Deployment) |
+| **Robot Karol (Schnuppertage)** | —                    | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
+| **CampDash (Archived)** | —                    | [Frontend](https://github.com/Campus-Application/campdash-frontend) | [Backend](https://github.com/Campus-Application/campdash-backend) | 🗄️ Archived |
+| **CampusParty App (Archived)** | —                    | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) | [Backend](https://github.com/Campus-Application/CampusParty-App-Backend) | 🗄️ Archived |
+| **CampusParty Trailer (Archived)** | —                    | [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend) | [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions) | 🗄️ Archived |
+
 
 ## 🔧 Work In Progress / To-Do
 
@@ -16,56 +31,9 @@
 
 ---
 
-## ⌚ Azure Time Plan
-
-| Tool | Operating Time |
-|--------|------------|
-| Achivement Board | Feb - Apr |
-| CampBoard | Aug - Jan |
-| HackTheInka | Okt |
-| Jump-in App | Jul - Aug |
-| Schnuppi-Tool | Jan - Dez |
-| SpacePostOffice - Messen | On demand |
-| Zukunftstag | Nov |
-
----
-
 ## SchnuppiTool 2025
 - [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend)
 - [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend)
-
----
-
-## Achievement Board
-- [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend)
-- [Backend](https://github.com/Campus-Application/Achievement-Board-Backend)
-
----
-
-## CampBoard
-- [Frontend](https://github.com/Campus-Application/CampBoard-Frontend)
-- [Backend](https://github.com/Campus-Application/CampBoard-Backend)
-- [Runtime](https://github.com/Campus-Application/Campboard-Runtime)
-
----
-
-## HackTheInka
-- [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend)
-- [Backend](https://github.com/Campus-Application/HackTheInka-Backend)
-
----
-
-## Jump-In
-- [PHP Version](https://github.com/Campus-Application/jump-in-php)
-- [Frontend](https://github.com/Campus-Application/jump-in-frontend)
-- [Backend](https://github.com/Campus-Application/jump-in-backend)
-- [Configuration](https://github.com/Campus-Application/jump-in-konfig)
-
----
-
-## Raspberry Pi Tools
-- [Deployment](https://github.com/Campus-Application/Raspberry-Deployment)
-- [Management Tool](https://github.com/Campus-Application/Pi-manage-tool)
 
 ---
 
@@ -74,37 +42,3 @@
 - [Frontend (2025)](https://github.com/Campus-Application/schnuppitool25-frontend) `New 2025`
 
 ---
-
-## Welcome Screen
-- [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend)
-
----
-
-## Zukunftstag
-- [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend)
-
----
-
-## SpacePost Office (Messe Tool)
-- [Application](https://github.com/Campus-Application/spacepost)
-
----
-
-## Robot Karol (Schnuppertage)
-- [Applikation](https://github.com/Campus-Application/robot-karol)
-
----
-
-## 🗄️ Archived Projects
-
-### CampDash
-- [Frontend](https://github.com/Campus-Application/campdash-frontend)
-- [Backend](https://github.com/Campus-Application/campdash-backend)
-
-### CampusParty App
-- [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend)
-- [Backend](https://github.com/Campus-Application/CampusParty-App-Backend)
-
-### CampusParty Trailer
-- [Frontend](https://github.com/Campus-Application/CampusParty-Trailer-Frontend)
-- [Functions](https://github.com/Campus-Application/CampusParty-Trailer-Functions)
