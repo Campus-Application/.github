@@ -16,7 +16,7 @@
 | **Robot Karol (Schnuppertage)** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
 
 
-## ⚠️ Dependabot Alerts — Daily Snapshot
+## ⚠️ Dependabot Alerts — Weekly Snapshot
 
 _Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._
 
