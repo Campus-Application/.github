@@ -28,9 +28,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SECURITY_READ_TOKEN }}
         run: |
-          python .github/scripts/build_overview.py \
-            --config ".github/data/tools.yaml" \
-            --update-readme ".github/profile/README.md" \
+          python scripts/build_overview.py \
+            --config "data/tools.yaml" \
+            --update-readme "profile/README.md" \
             --start-marker "<!-- CAMPUS-OVERVIEW:START -->" \
             --end-marker "<!-- CAMPUS-OVERVIEW:END -->"
 
