@@ -55,11 +55,16 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
 
         total += len(data)
         for alert in data:
-            sev = (alert.get("security_vulnerability", {}) or {}).get("severity") or alert.get("severity")
+            # Robust severity extraction across possible payload shapes
+            sev = (
+                ((alert.get("security_vulnerability") or {}).get("severity"))
+                or ((alert.get("security_advisory") or {}).get("severity"))
+                or alert.get("severity")
+            )
             if isinstance(sev, str):
-                sev = sev.lower()
-                if sev in severities:
-                    severities[sev] += 1
+                sev_l = sev.lower()
+                if sev_l in severities:
+                    severities[sev_l] += 1
 
         # pagination
         link = r.headers.get("Link", "")
@@ -207,7 +212,7 @@ def main():
     # Compose final content
     title = "# 🎓 Campus Applications — Consolidated Overview\n\n"
     standard = build_standard_table(cfg)
-    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Weekly Snapshot\n\n_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._\n\n"
+    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Daily Snapshot\n\n_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._\n\n"
     alerts_table = build_alerts_table(cfg)
     content = title + standard + alerts_title + alerts_table + "\n"
 
