@@ -212,7 +212,7 @@ def main():
     # Compose final content
     title = "# 🎓 Campus Applications — Consolidated Overview\n\n"
     standard = build_standard_table(cfg)
-    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Daily Snapshot\n\n_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._\n\n"
+    alerts_title = "\n\n## ⚠️ Dependabot Alerts — Weekly Snapshot\n\n_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._\n\n"
     alerts_table = build_alerts_table(cfg)
     content = title + standard + alerts_title + alerts_table + "\n"
 
