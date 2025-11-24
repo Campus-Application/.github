@@ -24,11 +24,11 @@ _Note: only repositories with **> 0** open alerts are listed. Archived tools are
 |------|------|-----:|--------:|-----:|---------:|----:|
 | **HackTheInka** | [Application](https://github.com/Campus-Application/Hack-The-Inka-Frontend) | 112 | 17 | 50 | 0 | 14 |
 | **Jump-In App** | [Configuration](https://github.com/Campus-Application/jump-in-konfig) | 23 | 1 | 5 | 0 | 5 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | 22 | 1 | 6 | 0 | 4 |
+| **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 22 | 3 | 5 | 0 | 5 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | 21 | 1 | 4 | 0 | 5 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | 20 | 1 | 5 | 0 | 4 |
 | **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) | 18 | 1 | 8 | 0 | 4 |
-| **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 18 | 3 | 2 | 0 | 5 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 10 | 0 | 1 | 0 | 3 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 11 | 0 | 2 | 0 | 3 |
 | **HackTheInka** | [Frontend 2025](https://github.com/Campus-Application/HackTheInka-Frontend) | 4 | 0 | 0 | 0 | 3 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | 3 | 0 | 0 | 0 | 1 |
 
