@@ -23,7 +23,7 @@ tools:
       backend: "https://github.com/Campus-Application/HackTheInka-Backend"
       other:
         - label: "Old Version"
-        url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
+          url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
 
   - name: "Jump-In App"
     azure_operating_time: "Jul – Aug"
