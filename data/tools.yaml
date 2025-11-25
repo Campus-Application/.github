@@ -19,14 +19,11 @@ tools:
   - name: "HackTheInka"
     azure_operating_time: "Okt"
     repos:
-      frontend:
-        label: "Application"
-        url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
+      frontend: "https://github.com/Campus-Application/HackTheInka-Frontend"
+      backend: "https://github.com/Campus-Application/HackTheInka-Backend"
       other:
-        - label: "Frontend 2025"
-          url: "https://github.com/Campus-Application/HackTheInka-Frontend"
-        - label: "Backend 2025"
-          url: "https://github.com/Campus-Application/HackTheInka-Backend"
+        - label: "Old Version"
+        url: "https://github.com/Campus-Application/Hack-The-Inka-Frontend"
 
   - name: "Jump-In App"
     azure_operating_time: "Jul – Aug"
