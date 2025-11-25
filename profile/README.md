@@ -57,6 +57,6 @@ _Note: only repositories with **> 0** open alerts are listed. Archived tools are
 
 ## SchnuppiTool
 - [Original App](https://github.com/Campus-Application/SchnuppiTool)
-- [Frontend (2025)](https://github.com/Campus-Application/schnuppitool25-frontend) `New 2025`
+- [Frontend (2025)](https://github.com/Campus-Application/schnuppitool25-frontend) `Can be removed. Repo not used anymore`
 
 ---
