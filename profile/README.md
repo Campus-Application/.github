@@ -48,8 +48,3 @@ _Note: only repositories with **> 0** open alerts are listed. Archived tools are
 | Frontend 2024 | [🔗 Link](https://github.com/Campus-Application/Frontend2024) | `Should be in BA-Module` |
 
 ---
-
-## SchnuppiTool
-- [Original App](https://github.com/Campus-Application/SchnuppiTool)
-
----
