@@ -8,7 +8,7 @@
 | **CampBoard** | Aug – Jan | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |
 | **HackTheInka** | Okt | [Application](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |  | [Frontend 2025](https://github.com/Campus-Application/HackTheInka-Frontend), [Backend 2025](https://github.com/Campus-Application/HackTheInka-Backend) |
 | **Jump-In App** | Jul – Aug | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [PHP Version](https://github.com/Campus-Application/jump-in-php), [Configuration](https://github.com/Campus-Application/jump-in-konfig) |
-| **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) |  |
+| **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) | [Old App](https://github.com/Campus-Application/SchnuppiTool) |
 | **SpacePostOffice (Messe Tool)** | On demand | [Application](https://github.com/Campus-Application/spacepost) |  |  |
 | **Zukunftstag** | Nov | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) |  |  |
 | **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) |  |  |
