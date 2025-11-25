@@ -42,11 +42,11 @@ tools:
   - name: "SchnuppiTool"
     azure_operating_time: "Jan – Dez"
     repos:
-      frontend: "?"
-      backend: "?"
+      frontend: "https://github.com/Campus-Application/Schnuppitool_Frontend"
+      backend: "https://github.com/Campus-Application/SchnuppiTool_Backend"
       other:
-        - label: "?"
-          url: ""
+        - label: "Old App"
+          url: "https://github.com/Campus-Application/SchnuppiTool"
 
   - name: "SpacePostOffice (Messe Tool)"
     azure_operating_time: "On demand"
