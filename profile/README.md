@@ -4,34 +4,34 @@
 
 | Tool | Azure Operating Time | Frontend | Backend | Other / Notes |
 |------|----------------------|-----------|----------|----------------|
-| **Achievement Board** | Feb – Apr | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) |  |
-| **CampBoard** | Aug – Jan | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |
-| **HackTheInka** | Okt | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [Backend](https://github.com/Campus-Application/HackTheInka-Backend) | [Old Version](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |
-| **Jump-In App** | Jul – Aug | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [PHP Version](https://github.com/Campus-Application/jump-in-php), [Configuration](https://github.com/Campus-Application/jump-in-konfig) |
-| **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) | [Old App](https://github.com/Campus-Application/SchnuppiTool) |
-| **SpacePostOffice (Messe Tool)** | On demand | [Application](https://github.com/Campus-Application/spacepost) |  |  |
-| **Zukunftstag** | Nov | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) |  |  |
-| **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) |  |  |
-| **Raspberry Pi Tools** | — | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  | [Deployment](https://github.com/Campus-Application/Raspberry-Deployment) |
-| **Robot Karol (Schnuppertage)** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
+| **Achievement Board** | Feb – Apr | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/18651205455) | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/18651210943) |  |
+| **CampBoard** | Aug – Jan | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/18651140610) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) [🟢](https://github.com/Campus-Application/CampBoard-Backend/actions/runs/18651148547) | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |
+| **HackTheInka** | Okt | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/18909846458) | [Backend](https://github.com/Campus-Application/HackTheInka-Backend) [🟢](https://github.com/Campus-Application/HackTheInka-Backend/actions/runs/18647847563) | [Repository](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |
+| **Jump-In App** | Jul – Aug | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [Repository](https://github.com/Campus-Application/jump-in-php) [🟢](https://github.com/Campus-Application/jump-in-php/actions/runs/18651924141), [Repository](https://github.com/Campus-Application/jump-in-konfig) |
+| **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/19674823120) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) [🟢](https://github.com/Campus-Application/SchnuppiTool_Backend/actions/runs/19696962760) | [Repository](https://github.com/Campus-Application/SchnuppiTool) |
+| **SpacePostOffice (Messe Tool)** | On demand | [Frontend](https://github.com/Campus-Application/spacepost) [🟢](https://github.com/Campus-Application/spacepost/actions/runs/18652027856) |  |  |
+| **Zukunftstag** | Nov | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) [🟢](https://github.com/Campus-Application/Zukunftstag-Frontend/actions/runs/18651900964) |  |  |
+| **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/19698022258) |  |  |
+| **Raspberry Pi Tools** | — | [Frontend](https://github.com/Campus-Application/Pi-manage-tool) |  | [Repository](https://github.com/Campus-Application/Raspberry-Deployment) |
+| **Robot Karol (Schnuppertage)** | — | [Frontend](https://github.com/Campus-Application/robot-karol) |  |  |
 
 
 ## ⚠️ Dependabot Alerts — Weekly Snapshot
 
-_Note: only repositories with **> 0** open alerts are listed. Archived tools are hidden. Sorted by open alerts (desc)._
+_Note: only repositories with > 0 open alerts are listed. Archived tools are hidden._
 
-| Tool | Repo | Open | Critical | High | Moderate | Low |
-|------|------|-----:|--------:|-----:|---------:|----:|
-| **HackTheInka** | [Old Version](https://github.com/Campus-Application/Hack-The-Inka-Frontend) | 112 | 17 | 50 | 0 | 14 |
-| **Jump-In App** | [Configuration](https://github.com/Campus-Application/jump-in-konfig) | 23 | 1 | 5 | 0 | 5 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | 22 | 1 | 6 | 0 | 4 |
-| **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 22 | 3 | 5 | 0 | 5 |
-| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | 21 | 1 | 4 | 0 | 5 |
-| **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) | 18 | 1 | 8 | 0 | 4 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | 6 | 1 | 1 | 0 | 1 |
-| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | 4 | 0 | 0 | 0 | 3 |
-| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | 3 | 0 | 0 | 0 | 1 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 1 | 0 | 1 | 0 | 0 |
+| Tool | Repo | Build | Open | Critical | High | Moderate | Low |
+|------|------|-------|-----:|--------:|-----:|---------:|----:|
+| **HackTheInka** | [Repository](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |  | 112 | 17 | 50 | 0 | 14 |
+| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 23 | 1 | 5 | 0 | 5 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/18651205455) | 22 | 1 | 6 | 0 | 4 |
+| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 22 | 3 | 5 | 0 | 5 |
+| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 21 | 1 | 4 | 0 | 5 |
+| **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 18 | 1 | 8 | 0 | 4 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/19674823120) | 6 | 1 | 1 | 0 | 1 |
+| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/18909846458) | 4 | 0 | 0 | 0 | 3 |
+| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/18651210943) | 3 | 0 | 0 | 0 | 1 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/19698022258) | 1 | 0 | 1 | 0 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
