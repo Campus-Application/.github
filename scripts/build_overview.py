@@ -2,11 +2,10 @@
 import argparse
 import os
 import re
-import sys
 import yaml
 import requests
 from pathlib import Path
-from typing import Dict, Tuple, Optional, List
+from typing import Tuple, Optional, List
 
 GITHUB_API = "https://api.github.com"
 
@@ -25,6 +24,37 @@ def get_token() -> Optional[str]:
         or os.getenv("TOKEN")
     )
 
+def fetch_last_build_status(owner: str, repo: str, session: requests.Session) -> Optional[dict]:
+    token = get_token()
+    headers = {"Accept": "application/vnd.github+json"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+        headers["X-GitHub-Api-Version"] = "2022-11-28"
+    # Get latest workflow runs
+    url = f"{GITHUB_API}/repos/{owner}/{repo}/actions/runs?per_page=1"
+    try:
+        r = session.get(url, headers=headers, timeout=30)
+        r.raise_for_status()
+    except requests.RequestException:
+        return None
+    data = r.json()
+    if not data.get("workflow_runs"):
+        return None
+    run = data["workflow_runs"][0]
+    return {"conclusion": run.get("conclusion", ""), "url": run.get("html_url", "")}
+
+def fetch_last_build_status_for_entry(entry, session):
+    if entry is None:
+        return None
+    url = entry.strip() if isinstance(entry, str) else entry.get("url", "").strip()
+    if not url:
+        return None
+    try:
+        owner, repo = parse_repo(url)
+    except ValueError:
+        return None
+    return fetch_last_build_status(owner, repo, session)
+
 def compute_tool_build_status(repos: dict, session: requests.Session) -> str:
     statuses = []
     for key in ["frontend", "backend"]:
@@ -36,7 +66,6 @@ def compute_tool_build_status(repos: dict, session: requests.Session) -> str:
         build = fetch_last_build_status_for_entry(item, session)
         if build:
             statuses.append(build["conclusion"])
-    # Aggregation
     if not statuses:
         return ""
     if "failure" in statuses:
@@ -48,21 +77,6 @@ def compute_tool_build_status(repos: dict, session: requests.Session) -> str:
     else:
         emoji = "⚙️"
     return emoji
-
-def fetch_last_build_status_for_entry(entry, session):
-    if entry is None:
-        return None
-    if isinstance(entry, str):
-        url = entry.strip()
-    else:
-        url = entry.get("url", "").strip()
-    if not url:
-        return None
-    try:
-        owner, repo = parse_repo(url)
-    except ValueError:
-        return None
-    return fetch_last_build_status(owner, repo, session)
 
 def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
     headers = {"Accept": "application/vnd.github+json"}
@@ -177,12 +191,10 @@ def build_alerts_table(cfg: dict) -> str:
         except ValueError:
             return
 
-        # Dependabot data
         total, sev, meta = fetch_dependabot_counts(owner, repo, session)
         if not isinstance(total, int) or total <= 0:
             return
 
-        # Build status
         build = fetch_last_build_status(owner, repo, session)
         build_status = ""
         if build:
@@ -273,7 +285,7 @@ def main():
         print(f"Updated section in {args.update_readme}")
     else:
         Path(args.output_md).write_text(content, encoding="utf-8")
-        print(f"Wrote {args.output-md}")
+        print(f"Wrote {args.output_md}")
 
 if __name__ == "__main__":
     main()
