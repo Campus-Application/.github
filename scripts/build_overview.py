@@ -139,7 +139,7 @@ def cell_link(entry, default_label: str) -> str:
             return "?"
         return md_link(default_label, s)
     url = entry.get("url", "").strip()
-    lbl = entry.get("name", default_label)
+    lbl = entry.get("label") or entry.get("name") or default_label
     if not url:
         return ""
     return md_link(lbl, url)
