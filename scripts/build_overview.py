@@ -25,36 +25,44 @@ def get_token() -> Optional[str]:
         or os.getenv("TOKEN")
     )
 
-# -----------------------------------------------------------
-# NEW: Fetch latest GitHub Actions build run
-# -----------------------------------------------------------
-def fetch_last_build_status(owner: str, repo: str, session: requests.Session):
-    headers = {"Accept": "application/vnd.github+json"}
-    token = get_token()
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-        headers["X-GitHub-Api-Version"] = "2022-11-28"
+def compute_tool_build_status(repos: dict, session: requests.Session) -> str:
+    statuses = []
+    for key in ["frontend", "backend"]:
+        if key in repos:
+            build = fetch_last_build_status_for_entry(repos[key], session)
+            if build:
+                statuses.append(build["conclusion"])
+    for item in repos.get("other", []):
+        build = fetch_last_build_status_for_entry(item, session)
+        if build:
+            statuses.append(build["conclusion"])
+    # Aggregation
+    if not statuses:
+        return ""
+    if "failure" in statuses:
+        emoji = "🔴"
+    elif "cancelled" in statuses:
+        emoji = "⚪"
+    elif all(s == "success" for s in statuses):
+        emoji = "🟢"
+    else:
+        emoji = "⚙️"
+    return emoji
 
-    url = f"{GITHUB_API}/repos/{owner}/{repo}/actions/runs?per_page=1"
-    r = session.get(url, headers=headers, timeout=30)
-
-    if r.status_code in {403, 404}:
+def fetch_last_build_status_for_entry(entry, session):
+    if entry is None:
         return None
-
-    r.raise_for_status()
-    data = r.json()
-    runs = data.get("workflow_runs", [])
-    if not runs:
+    if isinstance(entry, str):
+        url = entry.strip()
+    else:
+        url = entry.get("url", "").strip()
+    if not url:
         return None
-
-    run = runs[0]
-    return {
-        "status": run.get("status"),
-        "conclusion": run.get("conclusion"),
-        "url": run.get("html_url"),
-    }
-
-# -----------------------------------------------------------
+    try:
+        owner, repo = parse_repo(url)
+    except ValueError:
+        return None
+    return fetch_last_build_status(owner, repo, session)
 
 def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
     headers = {"Accept": "application/vnd.github+json"}
@@ -126,12 +134,10 @@ def cell_link(entry, default_label: str) -> str:
         return ""
     return md_link(lbl, url)
 
-# -----------------------------------------------------------
-# Build main table (unchanged)
-# -----------------------------------------------------------
 def build_standard_table(cfg: dict) -> str:
-    header = "| Tool | Azure Operating Time | Frontend | Backend | Other / Notes |\n"
-    sep = "|------|----------------------|-----------|----------|----------------|\n"
+    session = requests.Session()
+    header = "| Tool | Build | Azure Operating Time | Frontend | Backend | Other / Notes |\n"
+    sep = "|------|-------|----------------------|-----------|----------|----------------|\n"
     lines = [header, sep]
     for t in cfg["tools"]:
         if t.get("archived"):
@@ -141,19 +147,12 @@ def build_standard_table(cfg: dict) -> str:
         repos = t.get("repos", {})
         fe = cell_link(repos.get("frontend"), "Frontend")
         be = cell_link(repos.get("backend"), "Backend")
-        others = []
-        for item in repos.get("other", []):
-            if isinstance(item, str) and item.strip() == "?":
-                others.append("?")
-            else:
-                others.append(cell_link(item, "Repository"))
+        others = [cell_link(item, "Repository") for item in repos.get("other", [])]
         other_cell = ", ".join([o for o in others if o])
-        lines.append(f"| {name} | {op} | {fe or ''} | {be or ''} | {other_cell} |\n")
+        build_status = compute_tool_build_status(repos, session)
+        lines.append(f"| {name} | {build_status} | {op} | {fe or ''} | {be or ''} | {other_cell} |\n")
     return "".join(lines)
 
-# -----------------------------------------------------------
-# Alerts table WITH build status
-# -----------------------------------------------------------
 def build_alerts_table(cfg: dict) -> str:
     session = requests.Session()
     rows: List[dict] = []
@@ -236,8 +235,6 @@ def build_alerts_table(cfg: dict) -> str:
             f"{r['critical']} | {r['high']} | {r['moderate']} | {r['low']} |\n"
         )
     return "".join(lines)
-
-# -----------------------------------------------------------
 
 def replace_between_markers(text: str, start_marker: str, end_marker: str, replacement: str) -> str:
     pattern = re.compile(re.escape(start_marker) + r".*?" + re.escape(end_marker), re.DOTALL)
