@@ -24,14 +24,14 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
 | **HackTheInka** | [Old Version](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |  | 112 | 17 | 50 | 0 | 14 |
 | **Jump-In App** | [Configuration](https://github.com/Campus-Application/jump-in-konfig) |  | 23 | 1 | 5 | 0 | 5 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) |  | 22 | 1 | 6 | 0 | 4 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/18651205455) | 22 | 1 | 6 | 0 | 4 |
 | **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) |  | 22 | 3 | 5 | 0 | 5 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 21 | 1 | 4 | 0 | 5 |
 | **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |  | 18 | 1 | 8 | 0 | 4 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) |  | 6 | 1 | 1 | 0 | 1 |
-| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) |  | 4 | 0 | 0 | 0 | 3 |
-| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) |  | 3 | 0 | 0 | 0 | 1 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) |  | 1 | 0 | 1 | 0 | 0 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/19674823120) | 6 | 1 | 1 | 0 | 1 |
+| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/18909846458) | 4 | 0 | 0 | 0 | 3 |
+| **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/18651210943) | 3 | 0 | 0 | 0 | 1 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/19698022258) | 1 | 0 | 1 | 0 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
