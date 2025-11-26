@@ -28,10 +28,10 @@ _Note: only repositories with **> 0** open alerts are listed. Archived tools are
 | **Robot Karol (Schnuppertage)** | [Applikation](https://github.com/Campus-Application/robot-karol) | 22 | 3 | 5 | 0 | 5 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | 21 | 1 | 4 | 0 | 5 |
 | **CampBoard** | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) | 18 | 1 | 8 | 0 | 4 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 11 | 0 | 2 | 0 | 3 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | 9 | 1 | 1 | 0 | 1 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | 6 | 1 | 1 | 0 | 1 |
 | **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | 4 | 0 | 0 | 0 | 3 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | 3 | 0 | 0 | 0 | 1 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | 1 | 0 | 1 | 0 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
