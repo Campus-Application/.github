@@ -230,7 +230,7 @@ def build_alerts_table(cfg: dict) -> str:
             "open": total,
             "critical": int(sev.get("critical", 0)),
             "high": int(sev.get("high", 0)),
-            "moderate": int(sev.get("moderate", 0)),
+            "moderate": (total - int(sev.get("critical", 0) - int(sev.get("high", 0) - int(sev.get("low", 0)),
             "low": int(sev.get("low", 0)),
         }
         rows.append(row)
