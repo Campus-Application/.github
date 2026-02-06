@@ -68,7 +68,12 @@ tools:
       frontend:
         label: "Management Tool"
         url: "https://github.com/Campus-Application/Pi-manage-tool"
-      other:
+
+  - name: "Raspberry Pi Deployment (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend:
         - label: "Deployment"
           url: "https://github.com/Campus-Application/Raspberry-Deployment"
 
