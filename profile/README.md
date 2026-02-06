@@ -12,7 +12,7 @@
 | **SpacePostOffice (Messe Tool)** | On demand | [Application](https://github.com/Campus-Application/spacepost) [🟢](https://github.com/Campus-Application/spacepost/actions/runs/18652027856) |  |  |
 | **Zukunftstag** | Nov | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) [🟢](https://github.com/Campus-Application/Zukunftstag-Frontend/actions/runs/18651900964) |  |  |
 | **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/21677735499) |  |  |
-| **Raspberry Pi Tools** | — | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  | [Deployment](https://github.com/Campus-Application/Raspberry-Deployment) |
+| **Raspberry Pi Tools** | — | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  |  |
 | **Robot Karol (Schnuppertage)** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
 
 
@@ -30,7 +30,6 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/19925583028) | 7 | 0 | 2 | 5 | 0 |
 | **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/21677735499) | 4 | 0 | 2 | 2 | 0 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/19741127017) | 3 | 0 | 0 | 2 | 1 |
-| **Raspberry Pi Tools** | [Repository](https://github.com/Campus-Application/Raspberry-Deployment) |  | 2 | 0 | 1 | 1 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
