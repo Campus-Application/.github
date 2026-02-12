@@ -32,17 +32,3 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 
 <!-- CAMPUS-OVERVIEW:END -->
-
-## 🔧 Work In Progress / To-Do
-
-| Project | Repository | Notes |
-|--------|------------|-------|
-| Hack-The-Inka-Frontend | [🔗 Link](https://github.com/Campus-Application/Hack-The-Inka-Frontend) | `Duplicated? Also in BA-Module` |
-| Campnews-Frontend | [🔗 Link](https://github.com/Campus-Application/campnews-frontend) | `Should be in BA-Module` |
-| Campnews-Frontend-new | [🔗 Link](https://github.com/Campus-Application/Campnews-frontend-new) | `Should be in BA-Module` |
-| Campnews-Backend | [🔗 Link](https://github.com/Campus-Application/campnews-backend) | `Should be in BA-Module` |
-| Campnews-Backend-new | [🔗 Link](https://github.com/Campus-Application/campnews-backend-new) | `Should be in BA-Module` |
-| Next15 Learning | [🔗 Link](https://github.com/Campus-Application/Next15-Learning) | `Should be in BA-Module` |
-| Frontend 2024 | [🔗 Link](https://github.com/Campus-Application/Frontend2024) | `Should be in BA-Module` |
-
----
