@@ -106,3 +106,9 @@ tools:
       other:
         - label: "Functions"
           url: "https://github.com/Campus-Application/CampusParty-Trailer-Functions"
+
+  - name: "Campus Party App"
+    azure_operating_time: "-"
+    repos:
+      frontend: "https://github.com/Campus-Application/CampusParty-App-Frontend"
+      backend: "https://github.com/Campus-Application/CampusParty-App-Backend"
