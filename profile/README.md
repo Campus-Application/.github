@@ -23,14 +23,15 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 106 | 3 | 53 | 38 | 12 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 73 | 2 | 37 | 25 | 9 |
-| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 69 | 5 | 27 | 28 | 9 |
-| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 41 | 1 | 15 | 20 | 5 |
-| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 33 | 1 | 10 | 17 | 5 |
+| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 120 | 5 | 58 | 44 | 13 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 81 | 6 | 38 | 28 | 9 |
+| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 71 | 5 | 28 | 29 | 9 |
+| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 43 | 1 | 17 | 20 | 5 |
+| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 35 | 1 | 12 | 17 | 5 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 22 | 1 | 10 | 6 | 5 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/23582339462) | 11 | 0 | 4 | 7 | 0 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/23582339462) | 14 | 1 | 5 | 8 | 0 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/19741127017) | 3 | 0 | 0 | 2 | 1 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/23891930717) | 1 | 0 | 1 | 0 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
