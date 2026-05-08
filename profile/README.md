@@ -68,3 +68,5 @@ The workflow uses the repository secret `SECURITY_READ_TOKEN` as `GH_TOKEN`. Thi
 If the action starts failing with `401`, `403`, missing Dependabot data or empty build-status data, generate a new token from a GitHub user that has access to all relevant `Campus-Application` repositories. The token needs read access for repository metadata, GitHub Actions runs and Dependabot alerts. Then replace the value of the `SECURITY_READ_TOKEN` secret in GitHub and rerun the workflow manually.
 
 Never commit the token to the repo. Only store it as a GitHub secret.
+
+For more Information please consult the Step-By-Step Guide here: https://ictcampusnet-my.sharepoint.com/personal/einkaufcloud_ict-campus_net/_layouts/Doc.aspx?sourcedoc={B13246E9-0C4B-4D2D-857B-817FB7C4D15A}&wd=target%28Campus%20GIT%20%28GitHub%5C%29.one%7C84B47903-69A1-4AC9-BFFD-2D99F35DF362%2FNeues%20Repo%20in%20Campus%20Application%20aufnehmen%7C7F27BCCF-4393-45DA-8ED7-024DC8795142%2F%29&wdpartid={E3F70D30-6B6E-0597-1179-6AB0F0A0F0C8}{1}&wdsectionfileid={CA661DA0-CAAF-46D8-9BA1-4373F197A15D}&end
