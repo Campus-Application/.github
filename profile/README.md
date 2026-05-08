@@ -36,3 +36,26 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 
 <!-- CAMPUS-OVERVIEW:END -->
+
+---
+
+## How to update this overview
+
+The section above is generated automatically. Do not edit anything between `<!-- CAMPUS-OVERVIEW:START -->` and `<!-- CAMPUS-OVERVIEW:END -->` manually.
+
+To add, remove or change an application, edit `.github/data/tools.yaml`:
+
+```yaml
+- name: "My Tool"
+  azure_operating_time: "Mar – Jun"
+  repos:
+    frontend: "https://github.com/Campus-Application/my-tool-frontend"
+    backend: "https://github.com/Campus-Application/my-tool-backend"
+    other:
+      - label: "Configuration"
+        url: "https://github.com/Campus-Application/my-tool-config"
+```
+
+Use `archived: true` to hide old tools from the overview and the Dependabot table.
+
+The GitHub Action updates this README every Monday and can also be started manually from the Actions tab. It reads `data/tools.yaml`, checks build status and Dependabot alerts, then updates `profile/README.md`.
