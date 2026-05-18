@@ -23,16 +23,16 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 139 | 3 | 68 | 53 | 15 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 99 | 2 | 45 | 41 | 11 |
-| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 72 | 5 | 29 | 29 | 9 |
-| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 43 | 1 | 17 | 20 | 5 |
-| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 35 | 1 | 12 | 17 | 5 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/25043045328) | 26 | 0 | 8 | 17 | 1 |
+| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 157 | 3 | 75 | 61 | 18 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 101 | 2 | 46 | 42 | 11 |
+| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 74 | 5 | 29 | 31 | 9 |
+| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 59 | 1 | 23 | 26 | 9 |
+| **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 51 | 1 | 18 | 23 | 9 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/25043045328) | 39 | 0 | 15 | 22 | 2 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 22 | 1 | 10 | 6 | 5 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/25375887377) | 16 | 0 | 8 | 6 | 2 |
+| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/23742303788) | 13 | 0 | 8 | 4 | 1 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/24825685423) | 3 | 0 | 0 | 2 | 1 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/25375887377) | 3 | 0 | 1 | 2 | 0 |
-| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/23742303788) | 1 | 0 | 1 | 0 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
