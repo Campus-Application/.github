@@ -5,7 +5,7 @@
 | Tool | Azure Operating Time | Frontend | Backend | Other / Notes |
 |------|----------------------|-----------|----------|----------------|
 | **Achievement Board** | Feb – Apr | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/24825685423) |  |
-| **CampBoard** | Aug – Jan | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/29021809244) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) [🟢](https://github.com/Campus-Application/CampBoard-Backend/actions/runs/29006837142) | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |
+| **CampBoard** | Aug – Jan | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/30100573900) | [Backend](https://github.com/Campus-Application/CampBoard-Backend) [🟢](https://github.com/Campus-Application/CampBoard-Backend/actions/runs/30100197273) | [Runtime](https://github.com/Campus-Application/Campboard-Runtime) |
 | **HackTheInka** | Okt | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/26939661707) | [Backend](https://github.com/Campus-Application/HackTheInka-Backend) [🟢](https://github.com/Campus-Application/HackTheInka-Backend/actions/runs/19857989168) | [Old Version](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |
 | **Jump-In App** | Jul – Aug | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [PHP Version](https://github.com/Campus-Application/jump-in-php) [🟢](https://github.com/Campus-Application/jump-in-php/actions/runs/28872960257), [Configuration](https://github.com/Campus-Application/jump-in-konfig) |
 | **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/28357872566) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) [🟢](https://github.com/Campus-Application/SchnuppiTool_Backend/actions/runs/28426316410) | [Old App](https://github.com/Campus-Application/SchnuppiTool) |
@@ -23,17 +23,17 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 193 | 4 | 92 | 75 | 22 |
-| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 133 | 4 | 60 | 57 | 12 |
-| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 85 | 6 | 33 | 36 | 10 |
-| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 60 | 1 | 23 | 27 | 9 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/28357872566) | 60 | 0 | 27 | 29 | 4 |
+| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 207 | 5 | 98 | 82 | 22 |
+| **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 149 | 4 | 70 | 63 | 12 |
+| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 93 | 7 | 38 | 38 | 10 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/28357872566) | 69 | 0 | 30 | 35 | 4 |
+| **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 61 | 1 | 24 | 27 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 52 | 1 | 18 | 24 | 9 |
-| **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 23 | 1 | 11 | 6 | 5 |
-| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/26939661707) | 5 | 1 | 0 | 4 | 0 |
+| **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 24 | 1 | 12 | 6 | 5 |
+| **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/30100573900) | 14 | 1 | 6 | 7 | 0 |
+| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/26939661707) | 12 | 2 | 3 | 7 | 0 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/24825685423) | 3 | 0 | 0 | 2 | 1 |
-| **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/29021809244) | 2 | 1 | 0 | 1 | 0 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/28928836905) | 1 | 0 | 0 | 1 | 0 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/28928836905) | 2 | 0 | 1 | 1 | 0 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
