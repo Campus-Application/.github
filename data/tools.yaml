@@ -42,8 +42,8 @@ tools:
       frontend: "https://github.com/Campus-Application/Schnuppitool_Frontend"
       backend: "https://github.com/Campus-Application/SchnuppiTool_Backend"
       other:
-        - label: "Old App"
-          url: "https://github.com/Campus-Application/SchnuppiTool"
+        - label: "Function"
+          url: "https://github.com/Campus-Application/SchnuppiTool_Function"
 
   - name: "SpacePostOffice (Messe Tool)"
     azure_operating_time: "On demand"
@@ -111,4 +111,55 @@ tools:
     azure_operating_time: "—"
     repos:
       frontend: "https://github.com/Campus-Application/CampusParty-App-Frontend"
-      backend: "https://github.com/Campus-Application/CampusParty-App-Backend"
+
+  - name: "Gradebook"
+    azure_operating_time: "—"
+    repos:
+      frontend: 
+        label: "Repository"
+        url: "https://github.com/Campus-Application/Gradebook"
+
+  - name: "Funny Students"
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/FunnyStudents"
+      
+  - name: "BA-Calendar-Tool"
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/BA-Calendar-Tool"
+      
+  - name: "PostPilot_AI"
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/PostPilot_AI"
+
+  - name: "azure-ad-example (archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/azure-ad-example"
+
+  - name: "CampusBot (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/CampusBot"
+      other:
+        - label: "Functions"
+          url: "https://github.com/Campus-Application/CampusBotFunctions"
+          
+  - name: "P-Briefkasten (Archived)"
+    archived: true
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/P-Briefkasten_Frontend"
+      backend: "https://github.com/Campus-Application/P-Briefkasten_Backend"   
+      
+  - name: "Recall Application"
+    azure_operating_time: "—"
+    repos:
+      frontend: "https://github.com/Campus-Application/RecallApplication"
+      other:
+        - label: "Recall Uebungen"
+          url: "https://github.com/Campus-Application/RecallUebungenAppli"
