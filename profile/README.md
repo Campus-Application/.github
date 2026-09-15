@@ -9,12 +9,10 @@
 | **HackTheInka** | Okt | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/34467198084) | [Backend](https://github.com/Campus-Application/HackTheInka-Backend) [🟢](https://github.com/Campus-Application/HackTheInka-Backend/actions/runs/34467161888) | [Old Version](https://github.com/Campus-Application/Hack-The-Inka-Frontend) |
 | **Jump-In App** | Jul – Aug | [Frontend](https://github.com/Campus-Application/jump-in-frontend) | [Backend](https://github.com/Campus-Application/jump-in-backend) | [PHP Version](https://github.com/Campus-Application/jump-in-php) [🟢](https://github.com/Campus-Application/jump-in-php/actions/runs/31575758638), [Configuration](https://github.com/Campus-Application/jump-in-konfig) |
 | **SchnuppiTool** | Jan – Dez | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/34951355103) | [Backend](https://github.com/Campus-Application/SchnuppiTool_Backend) [🟢](https://github.com/Campus-Application/SchnuppiTool_Backend/actions/runs/34950925426) | [Function](https://github.com/Campus-Application/SchnuppiTool_Function) [🟢](https://github.com/Campus-Application/SchnuppiTool_Function/actions/runs/34845601973) |
-| **SpacePostOffice (Messe Tool)** | On demand | [Application](https://github.com/Campus-Application/spacepost) [🟢](https://github.com/Campus-Application/spacepost/actions/runs/18652027856) |  |  |
+| **SpacePostOffice** | On demand | [Application](https://github.com/Campus-Application/spacepost) [🟢](https://github.com/Campus-Application/spacepost/actions/runs/18652027856) |  |  |
 | **Zukunftstag** | Nov | [Frontend](https://github.com/Campus-Application/Zukunftstag-Frontend) [🟢](https://github.com/Campus-Application/Zukunftstag-Frontend/actions/runs/18651900964) |  |  |
 | **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/33868269134) |  |  |
-| **Raspberry Pi Tools** | — | [Management Tool](https://github.com/Campus-Application/Pi-manage-tool) |  |  |
-| **Robot Karol (Schnuppertage)** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
-| **Campus Party App** | — | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  |  |
+| **Robot Karol** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
 | **Gradebook** | — | [Repository](https://github.com/Campus-Application/Gradebook) [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/34582014018) |  |  |
 | **Funny Students** | — | [Frontend](https://github.com/Campus-Application/FunnyStudents) [🔴](https://github.com/Campus-Application/FunnyStudents/actions/runs/34946587525) |  |  |
 | **BA-Calendar-Tool** | — | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) |  |  |
@@ -28,10 +26,9 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol (Schnuppertage)** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 303 | 9 | 158 | 108 | 28 |
+| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 303 | 9 | 158 | 108 | 28 |
 | **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/19741120296) | 179 | 4 | 89 | 71 | 15 |
 | **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 132 | 2 | 53 | 56 | 21 |
-| **Campus Party App** | [Frontend](https://github.com/Campus-Application/CampusParty-App-Frontend) |  | 118 | 9 | 56 | 41 | 12 |
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/34951355103) | 101 | 2 | 52 | 43 | 4 |
 | **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 87 | 5 | 37 | 36 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 74 | 5 | 27 | 33 | 9 |
