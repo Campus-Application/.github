@@ -87,6 +87,20 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
 
     while url:
         r = session.get(url, headers=headers, timeout=30)
+        
+        if r.status_code == 403:
+            try:
+                message = r.json().get("message", "").lower()
+            except ValueError:
+                message = ""
+        
+            if "archived repositories" in message:
+                print(
+                    f"Skipping archived repository: {owner}/{repo}",
+                    file=sys.stderr
+                )
+                return (None, {}, {"reason": "archived"})
+        
         if r.status_code != 200:
             raise RuntimeError(
                 f"Dependabot API failed for {owner}/{repo}: "
