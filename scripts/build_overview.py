@@ -87,16 +87,11 @@ def fetch_dependabot_counts(owner: str, repo: str, session: requests.Session):
 
     while url:
         r = session.get(url, headers=headers, timeout=30)
-        if r.status_code == 404:
-            return (None, {}, {"reason": "not_found"})
-        if r.status_code == 403:
-            msg = (r.text or "").lower()
-            if "archived" in msg:
-                return (None, {}, {"archived": True, "reason": "archived"})
-            return (None, {}, {"reason": "forbidden"})
-        if r.status_code == 401:
-            return (None, {}, {"reason": "unauthorized"})
-        r.raise_for_status()
+        if r.status_code != 200:
+            raise RuntimeError(
+                f"Dependabot API failed for {owner}/{repo}: "
+                f"HTTP {r.status_code} - {r.text[:300]}"
+            )
 
         data = r.json()
         if not isinstance(data, list):
