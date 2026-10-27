@@ -24,6 +24,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
+      - name: Verify security token
+        env:
+          GH_TOKEN: ${{ secrets.SECURITY_READ_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::SECURITY_READ_TOKEN is missing or empty"
+            exit 1
+          fi
+          echo "Security token is configured."
+
       - name: Build overview and update org profile README section
         env:
           GH_TOKEN: ${{ secrets.SECURITY_READ_TOKEN }}
