@@ -26,9 +26,9 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 329 | 9 | 174 | 118 | 28 |
+| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 335 | 9 | 174 | 121 | 31 |
 | **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/37779026726) | 177 | 7 | 90 | 66 | 14 |
-| **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 154 | 3 | 59 | 67 | 25 |
+| **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 155 | 3 | 60 | 67 | 25 |
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/40472854314) | 112 | 2 | 58 | 48 | 4 |
 | **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 90 | 5 | 39 | 37 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 75 | 5 | 28 | 33 | 9 |
