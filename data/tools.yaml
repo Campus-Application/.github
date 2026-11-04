@@ -77,6 +77,13 @@ tools:
         label: "Applikation"
         url: "https://github.com/Campus-Application/robot-karol"
 
+  - name: "Algo - WebLeak"
+    azure_operating_time: "—"
+    repos:
+      frontend:
+        label: "Frontend"
+        url: "https://github.com/Campus-Application/WebLeak-Frontend"
+
   - name: "CampDash (Archived)"
     archived: true
     azure_operating_time: "—"
