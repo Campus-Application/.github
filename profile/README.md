@@ -17,7 +17,7 @@
 | **Gradebook** | — | [Repository](https://github.com/Campus-Application/Gradebook) [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) |  |  |
 | **Funny Students** | — | [Frontend](https://github.com/Campus-Application/FunnyStudents) [🟢](https://github.com/Campus-Application/FunnyStudents/actions/runs/34979171480) |  |  |
 | **BA-Calendar-Tool** | — | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) |  |  |
-| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/33761236704) |  |  |
+| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/43232057424) |  |  |
 | **Recall Application** | — | [Frontend](https://github.com/Campus-Application/RecallApplication) |  | [Recall Uebungen](https://github.com/Campus-Application/RecallUebungenAppli) |
 
 
@@ -27,7 +27,7 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 345 | 11 | 178 | 123 | 33 |
+| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 348 | 11 | 179 | 124 | 34 |
 | **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/41448556626) | 195 | 7 | 95 | 73 | 20 |
 | **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 160 | 3 | 61 | 67 | 29 |
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/42796689305) | 120 | 3 | 62 | 49 | 6 |
