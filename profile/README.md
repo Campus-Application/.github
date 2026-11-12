@@ -36,13 +36,14 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 74 | 3 | 45 | 23 | 3 |
 | **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/42580451311) | 60 | 1 | 26 | 29 | 4 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 28 | 2 | 13 | 7 | 6 |
-| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/41453151525) | 11 | 3 | 4 | 3 | 1 |
+| **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/41453151525) | 12 | 3 | 4 | 3 | 2 |
 | **SchnuppiTool** | [Repository](https://github.com/Campus-Application/SchnuppiTool_Function) | [🟢](https://github.com/Campus-Application/SchnuppiTool_Function/actions/runs/39415187458) | 8 | 0 | 6 | 2 | 0 |
 | **Recall Application** | [Repository](https://github.com/Campus-Application/RecallUebungenAppli) |  | 7 | 0 | 2 | 5 | 0 |
 | **Recall Application** | [Frontend](https://github.com/Campus-Application/RecallApplication) |  | 6 | 0 | 2 | 3 | 1 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/41469873212) | 4 | 0 | 1 | 2 | 1 |
 | **Algo - WebLeak** | [Frontend](https://github.com/Campus-Application/WebLeak-Frontend) | [🟢](https://github.com/Campus-Application/WebLeak-Frontend/actions/runs/41640855113) | 4 | 2 | 2 | 0 | 0 |
 | **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/41448090510) | 4 | 0 | 2 | 2 | 0 |
+| **Funny Students** | [Frontend](https://github.com/Campus-Application/FunnyStudents) | [🟢](https://github.com/Campus-Application/FunnyStudents/actions/runs/34979171480) | 1 | 0 | 0 | 0 | 1 |
 
 
 <!-- CAMPUS-OVERVIEW:END -->
