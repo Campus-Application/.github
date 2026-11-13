@@ -27,7 +27,7 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 
 | Tool | Repo | Build | Open | Critical | High | Moderate | Low |
 |------|------|-------|-----:|--------:|-----:|---------:|----:|
-| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 348 | 11 | 179 | 124 | 34 |
+| **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 352 | 11 | 179 | 127 | 35 |
 | **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/41448556626) | 195 | 7 | 95 | 73 | 20 |
 | **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 160 | 3 | 61 | 67 | 29 |
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/42796689305) | 120 | 3 | 62 | 49 | 6 |
