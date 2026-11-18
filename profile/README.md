@@ -33,7 +33,7 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/44104977129) | 120 | 3 | 62 | 49 | 6 |
 | **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 96 | 7 | 42 | 38 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 80 | 7 | 31 | 33 | 9 |
-| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 73 | 3 | 44 | 23 | 3 |
+| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 74 | 3 | 44 | 24 | 3 |
 | **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/42580451311) | 68 | 1 | 27 | 33 | 7 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 28 | 2 | 13 | 7 | 6 |
 | **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/41453151525) | 13 | 3 | 4 | 4 | 2 |
