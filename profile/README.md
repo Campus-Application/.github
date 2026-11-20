@@ -30,10 +30,10 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **Robot Karol** | [Frontend](https://github.com/Campus-Application/robot-karol) |  | 351 | 11 | 177 | 127 | 36 |
 | **Achievement Board** | [Frontend](https://github.com/Campus-Application/Achievement-Board-Frontend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Frontend/actions/runs/41448556626) | 195 | 7 | 95 | 73 | 20 |
 | **BA-Calendar-Tool** | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) | [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) | 160 | 3 | 61 | 67 | 29 |
-| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/44104977129) | 120 | 3 | 62 | 49 | 6 |
+| **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/44104977129) | 119 | 3 | 62 | 49 | 5 |
 | **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 96 | 7 | 42 | 38 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 80 | 7 | 31 | 33 | 9 |
-| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 74 | 3 | 44 | 24 | 3 |
+| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 78 | 3 | 44 | 28 | 3 |
 | **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/42580451311) | 67 | 1 | 27 | 33 | 6 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 28 | 2 | 13 | 7 | 6 |
 | **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/41453151525) | 14 | 3 | 4 | 5 | 2 |
