@@ -14,10 +14,10 @@
 | **Welcome Screen** | — | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/45355531989) |  |  |
 | **Robot Karol** | — | [Applikation](https://github.com/Campus-Application/robot-karol) |  |  |
 | **Algo - WebLeak** | — | [Frontend](https://github.com/Campus-Application/WebLeak-Frontend) [🟢](https://github.com/Campus-Application/WebLeak-Frontend/actions/runs/41640855113) |  |  |
-| **Gradebook** | — | [Repository](https://github.com/Campus-Application/Gradebook) [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) |  |  |
+| **Gradebook** | — | [Repository](https://github.com/Campus-Application/Gradebook) [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/45626471642) |  |  |
 | **Funny Students** | — | [Frontend](https://github.com/Campus-Application/FunnyStudents) [🟢](https://github.com/Campus-Application/FunnyStudents/actions/runs/34979171480) |  |  |
 | **BA-Calendar-Tool** | — | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) |  |  |
-| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/44276134851) |  |  |
+| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/45641985202) |  |  |
 | **Recall Application** | — | [Frontend](https://github.com/Campus-Application/RecallApplication) |  | [Recall Uebungen](https://github.com/Campus-Application/RecallUebungenAppli) |
 
 
@@ -33,7 +33,7 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **SchnuppiTool** | [Frontend](https://github.com/Campus-Application/Schnuppitool_Frontend) | [🟢](https://github.com/Campus-Application/Schnuppitool_Frontend/actions/runs/44104977129) | 122 | 3 | 62 | 52 | 5 |
 | **Jump-In App** | [Repository](https://github.com/Campus-Application/jump-in-konfig) |  | 98 | 7 | 42 | 40 | 9 |
 | **Jump-In App** | [Frontend](https://github.com/Campus-Application/jump-in-frontend) |  | 82 | 7 | 31 | 35 | 9 |
-| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/37781119899) | 78 | 3 | 44 | 28 | 3 |
+| **Gradebook** | [Frontend](https://github.com/Campus-Application/Gradebook) | [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/45626471642) | 78 | 3 | 44 | 28 | 3 |
 | **CampBoard** | [Frontend](https://github.com/Campus-Application/CampBoard-Frontend) | [🟢](https://github.com/Campus-Application/CampBoard-Frontend/actions/runs/42580451311) | 67 | 1 | 27 | 33 | 6 |
 | **CampBoard** | [Repository](https://github.com/Campus-Application/Campboard-Runtime) |  | 28 | 2 | 13 | 7 | 6 |
 | **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/45355531989) | 18 | 3 | 4 | 9 | 2 |
