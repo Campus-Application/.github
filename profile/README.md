@@ -39,8 +39,8 @@ _Note: only repositories with > 0 open alerts are listed. Archived tools are hid
 | **Welcome Screen** | [Frontend](https://github.com/Campus-Application/WelcomeScreen-Frontend) | [🟢](https://github.com/Campus-Application/WelcomeScreen-Frontend/actions/runs/45355531989) | 18 | 3 | 4 | 9 | 2 |
 | **Algo - WebLeak** | [Frontend](https://github.com/Campus-Application/WebLeak-Frontend) | [🟢](https://github.com/Campus-Application/WebLeak-Frontend/actions/runs/41640855113) | 16 | 2 | 2 | 12 | 0 |
 | **SchnuppiTool** | [Repository](https://github.com/Campus-Application/SchnuppiTool_Function) | [🟢](https://github.com/Campus-Application/SchnuppiTool_Function/actions/runs/39415187458) | 8 | 0 | 6 | 2 | 0 |
+| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/41448090510) | 7 | 0 | 2 | 5 | 0 |
 | **Recall Application** | [Repository](https://github.com/Campus-Application/RecallUebungenAppli) |  | 7 | 0 | 2 | 5 | 0 |
-| **HackTheInka** | [Frontend](https://github.com/Campus-Application/HackTheInka-Frontend) | [🟢](https://github.com/Campus-Application/HackTheInka-Frontend/actions/runs/41448090510) | 6 | 0 | 2 | 4 | 0 |
 | **Recall Application** | [Frontend](https://github.com/Campus-Application/RecallApplication) |  | 6 | 0 | 2 | 3 | 1 |
 | **Achievement Board** | [Backend](https://github.com/Campus-Application/Achievement-Board-Backend) | [🟢](https://github.com/Campus-Application/Achievement-Board-Backend/actions/runs/41469873212) | 4 | 0 | 1 | 2 | 1 |
 | **Funny Students** | [Frontend](https://github.com/Campus-Application/FunnyStudents) | [🟢](https://github.com/Campus-Application/FunnyStudents/actions/runs/34979171480) | 1 | 0 | 0 | 0 | 1 |
