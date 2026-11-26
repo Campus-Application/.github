@@ -17,7 +17,7 @@
 | **Gradebook** | — | [Repository](https://github.com/Campus-Application/Gradebook) [🟢](https://github.com/Campus-Application/Gradebook/actions/runs/45626471642) |  |  |
 | **Funny Students** | — | [Frontend](https://github.com/Campus-Application/FunnyStudents) [🟢](https://github.com/Campus-Application/FunnyStudents/actions/runs/34979171480) |  |  |
 | **BA-Calendar-Tool** | — | [Frontend](https://github.com/Campus-Application/BA-Calendar-Tool) [🟢](https://github.com/Campus-Application/BA-Calendar-Tool/actions/runs/24653450758) |  |  |
-| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/45641985202) |  |  |
+| **PostPilot_AI** | — | [Frontend](https://github.com/Campus-Application/PostPilot_AI) [🟢](https://github.com/Campus-Application/PostPilot_AI/actions/runs/45822731989) |  |  |
 | **Recall Application** | — | [Frontend](https://github.com/Campus-Application/RecallApplication) |  | [Recall Uebungen](https://github.com/Campus-Application/RecallUebungenAppli) |
 
 
